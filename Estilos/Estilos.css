@@ -1,0 +1,134 @@
+#General {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+}
+
+#Arriba {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#Info {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin: 40px;
+    border-style: solid;
+}
+
+#Imagenes {
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: transform 0.8s;
+}
+
+#Imagenes:hover {
+    transform: rotateY(180deg);
+}
+
+#Yo {
+    margin: 40px;
+    width: 200px;
+    backface-visibility: hidden;
+    border-style: solid;
+}
+
+#Escudo {
+    position: absolute;
+    top: 40px;
+    left:40px;
+    width: 200px;
+    height: 268px;
+    border-style: solid;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+#Imagenes:hover #Escudo {
+    opacity: 1;
+}
+
+#Datos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding-right: 20px;
+}
+
+#Carrera {
+    background-color: white;
+    margin: 40px;
+    padding: 10px;
+    border-style: solid;
+}
+
+#Carrera h2 {
+    text-align: center;
+}
+
+#Abajo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#Abajo h2 {
+    text-align: center;
+}
+
+#Libros {
+    background-color: white;
+    border-style: solid;
+    margin: 40px;
+    padding: 20px;
+    padding-right: 40px;
+}
+
+#Hobbies {
+    background-color: white;
+    border-style: solid;
+    margin: 40px;
+    padding: 20px;
+}
+
+#Sitios {
+    background-color: white;
+    border-style: solid;
+    margin: 40px;
+    padding: 20px;
+}
+
+#Sitios td {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+
+body {
+    background-color:#82cdd7;
+}
